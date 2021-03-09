@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema#",
   "type": "object",
-  "title": "WorkflowHub JSON Workflow",
+  "title": "WfFormat",
   "properties": {
     "name": {
       "description": "Workflow trace name",
@@ -23,7 +23,8 @@
       "description": "Version of the schema used",
       "type": "string",
       "enum": [
-        "1.0"
+        "1.0",
+        "1.1"
       ]
     },
     "wms": {
